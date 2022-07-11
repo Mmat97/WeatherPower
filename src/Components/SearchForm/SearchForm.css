@@ -1,0 +1,90 @@
+.start-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+  margin-top: 15%;
+  background-color: rgba(89, 101, 128, 0.795);
+  font-size: 50px;
+
+  
+}
+
+
+
+
+
+
+
+.text-color {
+  color: #5cb6ff;
+}
+
+.text-label {
+  color: aliceblue !important;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-links {
+  color: black;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 15px;
+  display: flex;
+  list-style-type: none;
+  font-size: 11pt;
+}
+
+.nav-items {
+  margin-right: 13px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-items:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .start-card {
+    display: flex;
+    height: 5em;
+    max-width:10em;
+    background-color: rgba(89, 101, 128, 0.795);
+    font-size: 40px;
+    text-align: center;
+
+
+
+
+
+
+    
+    overflow-x: hidden;
+   
+  }
+  .text-label {
+    color: aliceblue !important;
+    padding-left:3em!important;;
+    height: 5em;
+    
+  }
+  .text-color {
+    color: #ff0606;
+  }
+}

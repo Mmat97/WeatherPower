@@ -1,0 +1,28 @@
+.header {
+  margin-top: 8px;
+  display: flex;
+}
+
+.back-button {
+  margin-left: 25px;
+}
+
+.nav-links {
+  color: black;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 15px;
+  display: flex;
+  list-style-type: none;
+  font-size: 11pt;
+}
+
+.nav-items {
+  margin-right: 13px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-items:hover {
+  text-decoration: underline;
+}
